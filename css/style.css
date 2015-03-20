@@ -225,12 +225,35 @@
 	background-repeat: no-repeat;
 	background-position: 55%;
 }
+.head-s-block{
+	text-align: center;
+}
 .small-head{
 	font-family: 'OpenSansLight';
 	font-size: 48px;
 	color: #3a4b5a;
 	text-align: center;
+	position: relative;
+	display: inline-block;
 }
+	.small-head:after{
+		content: "";
+		display: block;
+		width: 50%;
+		border-bottom: 3px solid #3a4b5a;
+		position: absolute;
+		right: 0;
+		bottom: -8px;
+	}
+	.small-head:before{
+		content: "";
+		display: block;
+		width: 50%;
+		border-bottom: 3px solid #cc3333;
+		position: absolute;
+		left: 0;
+		bottom: -8px;
+	}
 	.small-head span{
 		color: #cc3333;
 	}
@@ -346,5 +369,28 @@
 	.logo img{
 		width: 80%;
 		height: auto;
+	}
+	.name{
+		background-image: url(../images/name-s.png);
+		width: 35px;
+		right: 12px;
+	}
+	.in-email{
+		background-image: url(../images/email-s.png);
+		width: 35px;
+		right: 12px;
+	}
+	.in-telephone{
+		background-image: url(../images/tele-s.png);
+		width: 35px;
+		right: 12px;
+	}
+	.form-input input[type="submit"]{
+		width: 208px;
+	}
+}
+@media (max-width: 410px){
+	.small-head{
+		font-size: 26px;
 	}
 }
