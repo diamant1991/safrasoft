@@ -1,0 +1,350 @@
+*{
+	-webkit-transition: 0.5s all ease-in-out;
+	-o-transition: 0.5s all ease-in-out;
+	transition: 0.5s all ease-in-out;
+}
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../fonts/OpenSansLight.eot');
+    src: url('../fonts/OpenSansLight.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansLight.woff2') format('woff2'),
+         url('../fonts/OpenSansLight.woff') format('woff'),
+         url('../fonts/OpenSansLight.ttf') format('truetype'),
+         url('../fonts/OpenSansLight.svg#OpenSansLight') format('svg');
+}
+
+.white-block{
+	background-color: #fff;
+	position: relative;
+	
+}
+
+.red-block{
+	background-color: #cc3333;
+	
+}
+.wrapper{
+	position: relative;
+}
+	.head{
+		position: absolute;
+		text-align: center;
+		top: 0;
+		width: 100%;
+		z-index: 2;
+		font-family: 'OpenSansLight';
+		font-size: 72px;
+		color: #3a4b5a;
+		margin-top: 100px;
+	}
+	.head span{
+		color: #fff;
+	}
+.form-block{
+	margin-top: 250px;
+}
+.logo{
+	margin-top: 280px;
+}
+.right-block{
+	float: right;
+	margin-right: 50px;
+}
+.sprite{
+	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+}
+.contacts{
+	width: 375px;
+	font-family: 'OpenSansLight';
+	margin-top: 182px;
+	float: right;
+}
+	.contacts h4{
+		font-size: 30px;
+		color: #3f4f5e;
+	}
+		.contacts h4:after{
+			content: "";
+			display: block;
+			width: 45px;
+			border-bottom: 3px solid #cc3333;
+			position: relative;
+			top: 3px;
+			left: 2px;
+		}
+	.contacts ul li{
+		width: 48%;
+		display: inline-block;
+		color: #3f505f;
+		font-size: 18px;
+		margin-top: 15px;
+		padding-left: 30px;
+	}
+	.email{
+		background-position: -5px -68px;
+	}
+	.telephone{
+		background-position: 0 -274px;
+	}
+	.skype{
+		background-position: -5px -244px;
+	}
+	.adress{
+		background-position: -1px -2px;
+	}
+.form-block{
+	margin-left: 130px;
+}
+.form-input{
+	position: relative;
+	width: 220px;
+	height: 40px;
+	margin-top: 30px;
+	font-family: 'OpenSansLight';
+}
+	.form-input input[type="text"]{
+		width: 173px;
+		height: 40px;
+		padding-left: 10px;
+		font-size: 18px;
+		font-family: 'OpenSansLight';
+		z-index: 1;
+		color: #3a4b5a;
+		border:0;
+		outline: 0;
+	}
+	.name{
+		background-image: url(../images/name.png);
+		background-repeat:no-repeat;
+		background-position: 45%;
+		display: block;
+		width: 47px;
+		height: 40px;
+		position: absolute;
+		top: 0px;
+		right: 0;
+		background-color: #fff;
+	}
+	.in-email{
+		background-image: url(../images/email.png);
+		background-repeat:no-repeat;
+		background-position: 45%;
+		display: block;
+		height: 40px;
+		width: 47px;
+		position: absolute;
+		top: 0px;
+		right: 0;
+		background-color: #fff;
+
+	}
+	.in-telephone{
+		background-image: url(../images/big-telephone.png);
+		background-repeat:no-repeat;
+		background-position: 45%;
+		display: block;
+		height: 40px;
+		width: 47px;
+		position: absolute;
+		top: 0px;
+		right: 0;
+		background-color: #fff;
+	}
+.separator{
+	position: absolute;
+	width: 1px;
+	height: 30px;
+	background: url(../images/separator.png);
+	top: 5px;
+	right: 46px;
+	z-index: 2;
+}
+.form-input input[type="submit"]{
+	width: 220px;
+	height: 40px;
+	background-color: transparent;
+	outline: 0;
+	border: 1px solid #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #fff;
+	-webkit-transition: 0.2s background-color ease-in-out;
+	-o-transition: 0.2s background-color ease-in-out;
+	transition: 0.2s background-color ease-in-out;
+}
+	.form-input input[type="submit"]:hover{
+		background-color: #3a4b5a;
+	}
+.social{
+	margin-left: 90px;
+	margin-top: 85px;
+	font-family: 'OpenSansLight';
+}
+	.social h4{
+		color: #fff;
+		font-size: 30px;
+	}
+		.social h4:after{
+			content: "";
+			display: block;
+			width: 45px;
+			border-bottom: 3px solid #fff;
+			position: relative;
+			top: 3px;
+			left: 2px;
+		}
+.social ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+	.social ul li a{
+		display: block;
+		width: 57px;
+		height: 57px;
+		border: 1px solid #fff;
+		background-color: transparent;
+		-webkit-transition: 0.2s background-color ease-in-out;
+		-o-transition: 0.2s background-color ease-in-out;
+		transition: 0.2s background-color ease-in-out;
+	}
+		.social ul li a:hover{
+			background-color: #3a4b5a;
+		}
+.vk{background-position: 1px -421px}
+.twitter{background-position: 2px -375px}
+.facebook{
+	background-image: url(../images/facebook.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.google{
+	background-image: url(../images/google.png);
+	background-repeat: no-repeat;
+	background-position: 55%;
+}
+.small-head{
+	font-family: 'OpenSansLight';
+	font-size: 48px;
+	color: #3a4b5a;
+	text-align: center;
+}
+	.small-head span{
+		color: #cc3333;
+	}
+.red-head{
+	color: #fff;
+	font-family: 'OpenSansLight';
+	font-size: 24px;
+	text-align: center;
+	margin-top: 30px;
+	line-height: 1.3;
+}
+@media (min-width: 992px) {
+	.white-block{
+	min-height: 100%;
+	
+}
+.container-fluid,.row{
+	height: 100%;
+	min-height: 100%;
+
+}
+.red-block{
+	min-height: 100%;
+	
+}
+}
+@media (max-width: 991px) {
+	.right-block{
+		float: none;
+		margin: 0;
+	}
+	.logo{
+		margin-top: 50px;
+		text-align: center;
+	}
+	.contacts{
+		float: none;
+		margin: 60px auto;
+	}
+	.form-block{
+		margin: 0 auto;
+		width: 220px;
+	}
+	.social{
+		width: 330px;
+		margin: 40px auto;
+	}
+}
+@media (max-width: 540px){
+	.small-head{
+		font-size: 36px;
+	}
+	.contacts h4{
+		font-size: 18px;
+	}
+		.contacts h4:after{
+			border-bottom-width: 1px;
+		}
+	.contacts ul li{
+		font-size: 15px;
+		margin-top: 10px;
+	}
+	.email{background-position: -5px -70px;}
+	.telephone{background-position: 0px -277px;}
+	.skype{background-position: -5px -246px;}
+	.adress{background-position: -1px -5px;}
+	.red-head{
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+	.form-input input[type="text"]{
+		font-size: 14px;
+		height: 30px;
+	}
+	.in-email,.name,.in-telephone,.form-input{
+		height: 30px;
+	}
+	.separator{
+		height: 18px;
+	}
+	.form-input{
+		margin-top: 10px;
+	}
+	.contacts{
+		width: 310px;
+	}
+	.form-input input[type="submit"]{
+		height: 30px;
+		margin-top: 10px;
+		font-size: 14px;
+	}
+	.social h4{
+		font-size: 18px;
+	}
+		.social h4:after{
+			border-bottom-width: 1px;
+		}
+	.social ul li a{
+		width: 40px;
+		height: 40px;
+	}
+	.soc-s{
+		background-image: url(../images/soc-s.png);
+		background-repeat: no-repeat;
+	}
+	.vk{background-position: 1px -91px;}
+	.facebook{background-position: 8px 4px;}
+	.google{background-position: 5px -25px;}
+	.twitter{background-position: 2px -57px;}
+	.social{
+		width: 255px;
+	}
+	.logo img{
+		width: 80%;
+		height: auto;
+	}
+}
