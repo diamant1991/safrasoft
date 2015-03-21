@@ -75,23 +75,50 @@
 		}
 	.contacts ul li{
 		width: 48%;
-		display: inline-block;
+		float: left;
 		color: #3f505f;
 		font-size: 18px;
 		margin-top: 15px;
-		padding-left: 30px;
+		list-style: none;
 	}
 	.email{
-		background-position: -5px -68px;
+		background-position: -5px -74px;
+		display: inline-block;
+		width: 20px;
+		height: 14px;
+		margin-right: 12px;
+		top: 1px;
+		position: relative;
 	}
 	.telephone{
-		background-position: 0 -274px;
+		background-position: -5px -278px;
+		display: inline-block;
+		width: 14px;
+		height: 20px;
+		margin-right: 12px;
+		position: relative;
+		top: 4px;
+
 	}
 	.skype{
-		background-position: -5px -244px;
+		background-position: -5px -247px;
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		margin-right: 12px;
+		position: relative;
+		top: 4px;
+
 	}
 	.adress{
-		background-position: -1px -2px;
+		background-position: -5px -5px;
+		display: inline-block;
+		width: 15px;
+		height: 20px;
+		margin-right: 12px;
+		position: relative;
+		top: 3px;
+
 	}
 .form-block{
 	margin-left: 130px;
@@ -316,10 +343,10 @@
 		font-size: 15px;
 		margin-top: 10px;
 	}
-	.email{background-position: -5px -70px;}
-	.telephone{background-position: 0px -277px;}
-	.skype{background-position: -5px -246px;}
-	.adress{background-position: -1px -5px;}
+	.email{background-position: -5px -74px;top: 2px;}
+	.telephone{background-position: -5px -277px;}
+	.skype{background-position: -5px -247px;}
+	.adress{background-position: -5px -5px;}
 	.red-head{
 		font-size: 15px;
 		margin-bottom: 15px;
