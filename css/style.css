@@ -55,7 +55,7 @@
 	background-repeat: no-repeat;
 }
 .contacts{
-	width: 375px;
+	width: 420px;
 	font-family: 'OpenSansLight';
 	margin-top: 182px;
 	float: right;
@@ -74,7 +74,7 @@
 			left: 2px;
 		}
 	.contacts ul li{
-		width: 48%;
+		width: 49%;
 		float: left;
 		color: #3f505f;
 		font-size: 18px;
@@ -365,7 +365,10 @@
 		margin-top: 10px;
 	}
 	.contacts{
-		width: 310px;
+		width: 350px;
+	}
+	.email,.telephone,.skype,.adress{
+		margin-right: 7px;
 	}
 	.form-input input[type="submit"]{
 		height: 30px;

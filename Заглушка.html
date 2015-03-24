@@ -23,7 +23,7 @@
             <div class="col-sm-12 col-md-6 white-block">
                 <div class="row">
                     <div class="head-s-block visible-sm visible-xs">
-                        <h2 class="small-head">Наш сайт в <span>разработке</h2>
+                        <h2 class="small-head">Наш сайт в <span>разработке</span></h2>
                     </div>
                     <div class="right-block">
                         <div class="logo">
@@ -61,7 +61,7 @@
                             <div class="in-email"></div>
                         </div>
                         <div class="form-input">
-                            <input type="text" placeholder="Ваш телефон">
+                            <input type="text" placeholder="Ваш телефон" id="telephone">
                             <div class="separator"></div>
                             <div class="in-telephone"></div>
                         </div>
@@ -88,7 +88,11 @@
   
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery.maskedinput.js"></script>
    <script>
+       jQuery(function($){
+            $("#telephone").mask("+7 (999) 999-9999");
+        });
         $( document ).ready(function() {
             $('input,textarea').focus(function(){
               $(this).data('placeholder',$(this).attr('placeholder'))
